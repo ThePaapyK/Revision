@@ -1,4 +1,4 @@
-import logo from './hblogo.jpg';
+import logo from './eff_ann.png';
 import './App.css';
 import { getFullYear, getFooterCopy } from './utils';
 
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>
-          School Dashboard
+          Innovation at its peak
         </h1>
       </header>
       <body className="App-body">
@@ -19,7 +19,7 @@ function App() {
 	  <input type="email" id="email" placeholder="Enter your email" />
 	  <label htmlFor="password">Password:</label>
 	  <input type="password" id="password" placeholder="Enter your password" />
-	  <button>OK</button>
+	  <button className="OK">OK</button>
       </body>
       <footer className="App-footer">
 	<p>

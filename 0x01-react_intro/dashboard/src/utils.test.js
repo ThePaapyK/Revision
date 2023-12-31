@@ -20,7 +20,7 @@ test('getFooterCopy returns the correct string for true', () => {
   const result = getFooterCopy(isAuthenticated);
 
   // Assert
-  expect(result).toBe('Holberton School');
+  expect(result).toBe('Fobistems Corp.');
 });
 
 test('getFooterCopy returns the correct string for false', () => {
@@ -31,7 +31,7 @@ test('getFooterCopy returns the correct string for false', () => {
   const result = getFooterCopy(isAuthenticated);
 
   // Assert
-  expect(result).toBe('Holberton School main dashboard');
+  expect(result).toBe('Fobistems Corp. main dashboard');
 });
 
 test('getLatestNotification returns the correct HTML string', () => {
