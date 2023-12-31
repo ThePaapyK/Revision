@@ -19,6 +19,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "homepage": "https://ThePaapyK.github.io/Revision",
   "eslintConfig": {
     "extends": [
       "react-app",
