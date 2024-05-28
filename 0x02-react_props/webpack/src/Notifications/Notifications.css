@@ -1,0 +1,23 @@
+.flex-it {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.Notifications {
+  border: 1px dashed #BB4;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+  width: 25%;
+}
+
+li[data-notification-type="default"] {
+  color: blue;
+}
+
+li[data-notification-type="urgent"] {
+  color: red;
+}
+
+.menuItem {
+}
